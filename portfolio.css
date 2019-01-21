@@ -1,0 +1,74 @@
+body, html
+{
+background-image: url("blue.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+h2
+{
+color: white;
+}
+
+.list
+{
+list-style-type: circle;
+border-radius: 25px;
+border: 2px solid
+width: 
+
+}
+.nav
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: #f1f1f1;
+border: 1px solid #555;
+position: fixed;
+}
+
+ul.nav li
+{
+float: left;
+}
+
+
+.navEle
+{
+display: block;
+color: #000;
+padding: 8px;
+text-decoration: none;
+text-align: center;
+border-right: 1px solid #555;
+
+}
+
+.navEle:hover 
+{
+background-color: #555;
+color: white;
+}
+
+.active
+{
+background-color: #4CAF50;
+color: white;
+}
+
+section {
+padding-top: 50px;
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
+
